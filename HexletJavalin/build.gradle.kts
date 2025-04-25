@@ -17,9 +17,9 @@ repositories {
 }
 
 dependencies {
-    implementation("io.javalin:javalin:6.1.3")
-    implementation("org.slf4j:slf4j-simple:2.0.7")
-    implementation("io.javalin:javalin-rendering:6.1.3")
+    implementation("io.javalin:javalin:6.6.0")
+    implementation("org.slf4j:slf4j-simple:2.0.16")
+    implementation("io.javalin:javalin-rendering:6.6.0")
     implementation("gg.jte:jte:3.1.9")
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
